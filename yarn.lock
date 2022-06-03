@@ -6594,6 +6594,11 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+filter-obj@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/filter-obj/-/filter-obj-1.1.0.tgz#9b311112bc6c6127a16e016c6c5d7f19e0805c5b"
+  integrity sha512-8rXg1ZnX7xzy2NGDVkBVaAy+lSlPNwad13BtgSlLuxfIslyt5Vg64U7tFcCt4WS1R0hvtnQybT/IyCkGZ3DpXQ==
+
 finalhandler@1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/finalhandler/-/finalhandler-1.2.0.tgz"
@@ -9502,10 +9507,10 @@ mock-fs@^4.1.0:
   resolved "https://registry.npmjs.org/mock-fs/-/mock-fs-4.14.0.tgz"
   integrity sha512-qYvlv/exQ4+svI3UOvPUpLDF0OMX5euvUH0Ny4N5QyRyhNdgAgUrVH3iUINSzEPLvx0kbo/Bp28GJKIqvE7URw==
 
-mollectorgame-sdk@^1.7.4:
-  version "1.7.4"
-  resolved "https://registry.yarnpkg.com/mollectorgame-sdk/-/mollectorgame-sdk-1.7.4.tgz#8f102ce6ed7e11ea4e213236809a71a7555f1a94"
-  integrity sha512-Eadt2a2eiw9MpZk8tSV9U76H8fcV5ciI5NftyrUYDjQIgQmAtmO+akkZwBYwKW22aXhNYz1PnRzgiKi6Jttl/Q==
+mollectorgame-sdk@^1.7.5:
+  version "1.7.5"
+  resolved "https://registry.yarnpkg.com/mollectorgame-sdk/-/mollectorgame-sdk-1.7.5.tgz#c9a8c99fd548fd3521fc731feac43eee4f67ce20"
+  integrity sha512-ZThsxQaLCwZUnF5HLK+aFEYmdJyzI+2ORZRDA4SRB/uoQ0GOe1zrY8Ger125UxZFn8DkBArGwagbjmZxPzaI+Q==
   dependencies:
     "@reduxjs/toolkit" "^1.8.1"
     "@web3-react/core" "^6.1.9"
@@ -9515,6 +9520,7 @@ mollectorgame-sdk@^1.7.4:
     bignumber.js "^9.0.2"
     ethers "^5.6.5"
     lodash "^4.17.21"
+    query-string "^7.1.1"
     react-modal "^3.15.1"
     react-query "^3.39.0"
     react-spring "^9.4.5"
@@ -11420,6 +11426,16 @@ query-string@^5.0.1:
     decode-uri-component "^0.2.0"
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
+
+query-string@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-7.1.1.tgz#754620669db978625a90f635f12617c271a088e1"
+  integrity sha512-MplouLRDHBZSG9z7fpuAAcI7aAYjDLhtsiVZsevsfaHWDS2IDdORKbSd1kWUA+V4zyva/HZoSfpwnYMMQDhb0w==
+  dependencies:
+    decode-uri-component "^0.2.0"
+    filter-obj "^1.1.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
 
 querystring-es3@^0.2.0:
   version "0.2.1"

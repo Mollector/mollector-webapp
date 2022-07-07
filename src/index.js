@@ -6,6 +6,7 @@ import { Provider } from 'react-redux'
 import { HashRouter } from 'react-router-dom'
 
 import App from './App'
+import GlobalStyle from './GlobalStyles'
 import store from './state'
 
 import './index.scss'
@@ -20,6 +21,7 @@ ReactDOM.render(
     <HashRouter basename="/">
       <Provider store={store}>
         <Container>
+          <GlobalStyle />
           <App />
         </Container>
       </Provider>

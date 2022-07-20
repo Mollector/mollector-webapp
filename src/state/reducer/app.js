@@ -2,7 +2,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  isMarketplaceOpen: false,
+  isMarketplaceOpen: true,
 }
 
 export const appSlice = createSlice({
@@ -10,7 +10,6 @@ export const appSlice = createSlice({
   initialState,
   reducers: {
     setOpenMarketplace: (state, action) => {
-      console.log(action.payload, 'pay load ?')
       state.isMarketplaceOpen = action.payload
     },
   },

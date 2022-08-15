@@ -6,8 +6,8 @@
     "runtime-main.js": "/mollector-webapp/static/js/runtime-main.473c88e0.js",
     "runtime-main.js.map": "/mollector-webapp/static/js/runtime-main.473c88e0.js.map",
     "static/css/2.b8fe46b5.chunk.css": "/mollector-webapp/static/css/2.b8fe46b5.chunk.css",
-    "static/js/2.25c3a073.chunk.js": "/mollector-webapp/static/js/2.25c3a073.chunk.js",
-    "static/js/2.25c3a073.chunk.js.map": "/mollector-webapp/static/js/2.25c3a073.chunk.js.map",
+    "static/js/2.3ba0e42e.chunk.js": "/mollector-webapp/static/js/2.3ba0e42e.chunk.js",
+    "static/js/2.3ba0e42e.chunk.js.map": "/mollector-webapp/static/js/2.3ba0e42e.chunk.js.map",
     "static/js/3.2c4a73af.chunk.js": "/mollector-webapp/static/js/3.2c4a73af.chunk.js",
     "static/js/3.2c4a73af.chunk.js.map": "/mollector-webapp/static/js/3.2c4a73af.chunk.js.map",
     "static/js/4.c717264a.chunk.js": "/mollector-webapp/static/js/4.c717264a.chunk.js",
@@ -15,14 +15,14 @@
     "index.html": "/mollector-webapp/index.html",
     "static/css/2.b8fe46b5.chunk.css.map": "/mollector-webapp/static/css/2.b8fe46b5.chunk.css.map",
     "static/css/main.0ef2c62a.chunk.css.map": "/mollector-webapp/static/css/main.0ef2c62a.chunk.css.map",
-    "static/js/2.25c3a073.chunk.js.LICENSE.txt": "/mollector-webapp/static/js/2.25c3a073.chunk.js.LICENSE.txt",
+    "static/js/2.3ba0e42e.chunk.js.LICENSE.txt": "/mollector-webapp/static/js/2.3ba0e42e.chunk.js.LICENSE.txt",
     "static/media/mainbackground.e698f491.png": "/mollector-webapp/static/media/mainbackground.e698f491.png",
     "static/media/menu.c2d54434.png": "/mollector-webapp/static/media/menu.c2d54434.png"
   },
   "entrypoints": [
     "static/js/runtime-main.473c88e0.js",
     "static/css/2.b8fe46b5.chunk.css",
-    "static/js/2.25c3a073.chunk.js",
+    "static/js/2.3ba0e42e.chunk.js",
     "static/css/main.0ef2c62a.chunk.css",
     "static/js/main.4fbd3958.chunk.js"
   ]

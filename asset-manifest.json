@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/mollector-webapp/static/css/main.0ef2c62a.chunk.css",
-    "main.js": "/mollector-webapp/static/js/main.17f6b8ab.chunk.js",
-    "main.js.map": "/mollector-webapp/static/js/main.17f6b8ab.chunk.js.map",
-    "runtime-main.js": "/mollector-webapp/static/js/runtime-main.c70be36c.js",
-    "runtime-main.js.map": "/mollector-webapp/static/js/runtime-main.c70be36c.js.map",
+    "main.js": "/mollector-webapp/static/js/main.20587a7e.chunk.js",
+    "main.js.map": "/mollector-webapp/static/js/main.20587a7e.chunk.js.map",
+    "runtime-main.js": "/mollector-webapp/static/js/runtime-main.5793840b.js",
+    "runtime-main.js.map": "/mollector-webapp/static/js/runtime-main.5793840b.js.map",
     "static/css/2.b8fe46b5.chunk.css": "/mollector-webapp/static/css/2.b8fe46b5.chunk.css",
-    "static/js/2.13929c33.chunk.js": "/mollector-webapp/static/js/2.13929c33.chunk.js",
-    "static/js/2.13929c33.chunk.js.map": "/mollector-webapp/static/js/2.13929c33.chunk.js.map",
-    "static/js/3.33442b3c.chunk.js": "/mollector-webapp/static/js/3.33442b3c.chunk.js",
-    "static/js/3.33442b3c.chunk.js.map": "/mollector-webapp/static/js/3.33442b3c.chunk.js.map",
+    "static/js/2.8bcf92bf.chunk.js": "/mollector-webapp/static/js/2.8bcf92bf.chunk.js",
+    "static/js/2.8bcf92bf.chunk.js.map": "/mollector-webapp/static/js/2.8bcf92bf.chunk.js.map",
+    "static/js/3.539348ed.chunk.js": "/mollector-webapp/static/js/3.539348ed.chunk.js",
+    "static/js/3.539348ed.chunk.js.map": "/mollector-webapp/static/js/3.539348ed.chunk.js.map",
     "static/js/4.c717264a.chunk.js": "/mollector-webapp/static/js/4.c717264a.chunk.js",
     "static/js/4.c717264a.chunk.js.map": "/mollector-webapp/static/js/4.c717264a.chunk.js.map",
     "index.html": "/mollector-webapp/index.html",
     "static/css/2.b8fe46b5.chunk.css.map": "/mollector-webapp/static/css/2.b8fe46b5.chunk.css.map",
     "static/css/main.0ef2c62a.chunk.css.map": "/mollector-webapp/static/css/main.0ef2c62a.chunk.css.map",
-    "static/js/2.13929c33.chunk.js.LICENSE.txt": "/mollector-webapp/static/js/2.13929c33.chunk.js.LICENSE.txt",
+    "static/js/2.8bcf92bf.chunk.js.LICENSE.txt": "/mollector-webapp/static/js/2.8bcf92bf.chunk.js.LICENSE.txt",
     "static/media/mainbackground.e698f491.png": "/mollector-webapp/static/media/mainbackground.e698f491.png",
     "static/media/menu.c2d54434.png": "/mollector-webapp/static/media/menu.c2d54434.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c70be36c.js",
+    "static/js/runtime-main.5793840b.js",
     "static/css/2.b8fe46b5.chunk.css",
-    "static/js/2.13929c33.chunk.js",
+    "static/js/2.8bcf92bf.chunk.js",
     "static/css/main.0ef2c62a.chunk.css",
-    "static/js/main.17f6b8ab.chunk.js"
+    "static/js/main.20587a7e.chunk.js"
   ]
 }

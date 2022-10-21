@@ -33,11 +33,11 @@ function App() {
         isEmbeded={false}
         onHandleClose={() => {}}
         injectedConnectorConfig={{
-          supportedChainIds: [88],
+          supportedChainIds: [88, 97],
         }}
         authInfo={authInfo}
         walletConnectorConfig={{
-          rpc: { 88: 'https://rpc.tomochain.com' },
+          rpc: { 88: 'https://rpc.tomochain.com', 97: 'https://data-seed-prebsc-1-s1.binance.org:8545/' },
           bridge: 'https://bridge.walletconnect.org',
           qrcode: true,
         }}

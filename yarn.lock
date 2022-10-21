@@ -9512,10 +9512,10 @@ mock-fs@^4.1.0:
   resolved "https://registry.npmjs.org/mock-fs/-/mock-fs-4.14.0.tgz"
   integrity sha512-qYvlv/exQ4+svI3UOvPUpLDF0OMX5euvUH0Ny4N5QyRyhNdgAgUrVH3iUINSzEPLvx0kbo/Bp28GJKIqvE7URw==
 
-mollectorgame-sdk@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/mollectorgame-sdk/-/mollectorgame-sdk-1.15.0.tgz#6dcfbf3b23562a1c01f990f1c9e567dd93674cc3"
-  integrity sha512-10Z4TpbpK63zf1CMehXS+8mpGP8MlDHX0qttbZ8GFXlIjkGacXmnN9PbzmgYxYr/t2NvNTNHhAXtzmsnxb4D1w==
+mollectorgame-sdk@^1.16.1:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/mollectorgame-sdk/-/mollectorgame-sdk-1.16.1.tgz#b96a08a80d74f3274a55b58bde0678c89642676d"
+  integrity sha512-IGJeFzRF+RAUqnd0LA7IadgSLr99j7FTgt1mgh5vIRBzMa7L/HM1LLDqNuuiibhv4osV2P14Ob4ei/lJZ7+zNA==
   dependencies:
     "@reduxjs/toolkit" "^1.8.1"
     "@web3-react/core" "^6.1.9"

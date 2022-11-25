@@ -1,6 +1,6 @@
 {
   "name": "mollector-webapp",
-  "homepage": "https://gitname.github.io/mollector-webapp",
+  "homepage": "https://marketplace.mollector.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

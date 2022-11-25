@@ -1,29 +1,26 @@
 {
   "files": {
-    "main.css": "/mollector-webapp/static/css/main.0ef2c62a.chunk.css",
-    "main.js": "/mollector-webapp/static/js/main.7ea70790.chunk.js",
-    "main.js.map": "/mollector-webapp/static/js/main.7ea70790.chunk.js.map",
-    "runtime-main.js": "/mollector-webapp/static/js/runtime-main.b8dafe26.js",
-    "runtime-main.js.map": "/mollector-webapp/static/js/runtime-main.b8dafe26.js.map",
+    "main.js": "/mollector-webapp/static/js/main.db2d14ff.chunk.js",
+    "main.js.map": "/mollector-webapp/static/js/main.db2d14ff.chunk.js.map",
+    "runtime-main.js": "/mollector-webapp/static/js/runtime-main.33a964ea.js",
+    "runtime-main.js.map": "/mollector-webapp/static/js/runtime-main.33a964ea.js.map",
     "static/css/2.b8fe46b5.chunk.css": "/mollector-webapp/static/css/2.b8fe46b5.chunk.css",
-    "static/js/2.ef9403da.chunk.js": "/mollector-webapp/static/js/2.ef9403da.chunk.js",
-    "static/js/2.ef9403da.chunk.js.map": "/mollector-webapp/static/js/2.ef9403da.chunk.js.map",
-    "static/js/3.206423f7.chunk.js": "/mollector-webapp/static/js/3.206423f7.chunk.js",
-    "static/js/3.206423f7.chunk.js.map": "/mollector-webapp/static/js/3.206423f7.chunk.js.map",
-    "static/js/4.d2bc1956.chunk.js": "/mollector-webapp/static/js/4.d2bc1956.chunk.js",
-    "static/js/4.d2bc1956.chunk.js.map": "/mollector-webapp/static/js/4.d2bc1956.chunk.js.map",
+    "static/js/2.4f86a9c4.chunk.js": "/mollector-webapp/static/js/2.4f86a9c4.chunk.js",
+    "static/js/2.4f86a9c4.chunk.js.map": "/mollector-webapp/static/js/2.4f86a9c4.chunk.js.map",
+    "static/js/3.ca7e8ea0.chunk.js": "/mollector-webapp/static/js/3.ca7e8ea0.chunk.js",
+    "static/js/3.ca7e8ea0.chunk.js.map": "/mollector-webapp/static/js/3.ca7e8ea0.chunk.js.map",
+    "static/js/4.4057bdda.chunk.js": "/mollector-webapp/static/js/4.4057bdda.chunk.js",
+    "static/js/4.4057bdda.chunk.js.map": "/mollector-webapp/static/js/4.4057bdda.chunk.js.map",
     "index.html": "/mollector-webapp/index.html",
     "static/css/2.b8fe46b5.chunk.css.map": "/mollector-webapp/static/css/2.b8fe46b5.chunk.css.map",
-    "static/css/main.0ef2c62a.chunk.css.map": "/mollector-webapp/static/css/main.0ef2c62a.chunk.css.map",
-    "static/js/2.ef9403da.chunk.js.LICENSE.txt": "/mollector-webapp/static/js/2.ef9403da.chunk.js.LICENSE.txt",
+    "static/js/2.4f86a9c4.chunk.js.LICENSE.txt": "/mollector-webapp/static/js/2.4f86a9c4.chunk.js.LICENSE.txt",
     "static/media/mainbackground.e698f491.png": "/mollector-webapp/static/media/mainbackground.e698f491.png",
     "static/media/menu.c2d54434.png": "/mollector-webapp/static/media/menu.c2d54434.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8dafe26.js",
+    "static/js/runtime-main.33a964ea.js",
     "static/css/2.b8fe46b5.chunk.css",
-    "static/js/2.ef9403da.chunk.js",
-    "static/css/main.0ef2c62a.chunk.css",
-    "static/js/main.7ea70790.chunk.js"
+    "static/js/2.4f86a9c4.chunk.js",
+    "static/js/main.db2d14ff.chunk.js"
   ]
 }

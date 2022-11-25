@@ -9,7 +9,6 @@ import App from './App'
 import GlobalStyle from './GlobalStyles'
 import store from './state'
 
-import './index.scss'
 import 'react-toastify/dist/ReactToastify.css'
 
 BigNumber.set({

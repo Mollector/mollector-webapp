@@ -200,10 +200,10 @@ const configs: IConfig = {
       name: 'Marketplace',
       path: Routes.MARKETPLACE,
     },
-    {
-      name: 'Purchase',
-      path: Routes.BUY_PACK,
-    },
+    // {
+    //   name: 'Purchase',
+    //   path: Routes.BUY_PACK,
+    // },
     {
       name: 'Inventory',
       path: Routes.LIST_PACK,

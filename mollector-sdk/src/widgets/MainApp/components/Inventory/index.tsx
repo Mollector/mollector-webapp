@@ -23,13 +23,13 @@ const FullSizeTabNavigator = ({ tab, setTab }: ITabManager) => {
       <TabInventory onClick={() => setTab(1)} isSelected={tab === 1}>
         In-wallet assets
       </TabInventory>
-      <TabInventory onClick={() => setTab(2)} isSelected={tab === 2}>
+      {/* <TabInventory onClick={() => setTab(2)} isSelected={tab === 2}>
         Chest
-      </TabInventory>
-      <TabInventory onClick={() => setTab(3)} isSelected={tab === 3}>
+      </TabInventory> */}
+      <TabInventory onClick={() => setTab(2)} isSelected={tab === 2}>
         In-game assets
       </TabInventory>
-      <TabInventory onClick={() => setTab(4)} isSelected={tab === 4}>
+      <TabInventory onClick={() => setTab(3)} isSelected={tab === 3}>
         Activity
       </TabInventory>
     </TabWrapper>
@@ -38,13 +38,13 @@ const FullSizeTabNavigator = ({ tab, setTab }: ITabManager) => {
 
 const MiniTabNavigator = ({ tab, setTab }: ITabManager) => {
   const onChangeTab = (newTab: number) => {
-    if (newTab > 4) {
+    if (newTab > 3) {
       setTab(1)
       return
     }
 
     if (newTab < 1) {
-      setTab(4)
+      setTab(3)
       return
     }
 
@@ -56,15 +56,15 @@ const MiniTabNavigator = ({ tab, setTab }: ITabManager) => {
       return 'In-wallet assets'
     }
 
-    if (tab === 2) {
-      return 'Chest'
-    }
+    // if (tab === 2) {
+    //   return 'Chest'
+    // }
 
-    if (tab === 3) {
+    if (tab === 2) {
       return 'In-game assets'
     }
 
-    if (tab === 4) {
+    if (tab === 3) {
       return 'Activity'
     }
   }, [tab])
@@ -99,10 +99,10 @@ const ListPack = () => {
           classNames="fade"
         >
           <>
-            {tab === 2 && <Pack setTab={setTab} />}
+            {/* {tab === 2 && <Pack setTab={setTab} />} */}
             {tab === 1 && <Card />}
-            {tab === 3 && <Requests />}
-            {tab === 4 && <Activity />}
+            {tab === 2 && <Requests />}
+            {tab === 3 && <Activity />}
           </>
         </CSSTransition>
       </SwitchTransition>

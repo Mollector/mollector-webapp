@@ -1,8 +1,6 @@
 import Web3 from 'web3'
 import { Contract } from 'web3-eth-contract'
 
-import { ChainId } from '~/commonType'
-import configurations from '~/configurations'
 import bep20Abi from '~/configurations/abi/erc20.json'
 import MollectorCardAbi from '~/configurations/abi/MollectorCardAbi.json'
 import MollectorDepositContract from '~/configurations/abi/MollectorDepositAbi.json'
@@ -11,16 +9,6 @@ import MollectorPackAbi from '~/configurations/abi/MollectorPackAbi.json'
 import MollectorUtilAbi from '~/configurations/abi/MollectorUtilAbi.json'
 
 import { getWeb3NoAccount } from './web3Utils'
-
-export const getContractConfig = (chainId: typeof ChainId[keyof typeof ChainId] | null | undefined) => {
-  const { CONTRACT } = configurations
-
-  if (chainId) {
-    return CONTRACT[chainId]
-  }
-
-  return CONTRACT[88]
-}
 
 export const getContract = (abi: any, address: string, web3: Web3): Contract | null => {
   const _web3 = web3 || getWeb3NoAccount()

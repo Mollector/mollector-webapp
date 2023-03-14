@@ -92,23 +92,23 @@ const GeneratedImage = ({ cardInfo, onClick = () => {} }: IGeneratedImage) => {
         )}
         <Wrapper onClick={onClick} isLoading={isLoading}>
           <HeroWrapper>
-            {background && <BackgroundImage src={background} />}
-            {effect && <EffectImage src={effect} />}
+            {/* {background && <BackgroundImage src={background} />}
+            {effect && <EffectImage src={effect} />} */}
             <CharImage src={char} />
           </HeroWrapper>
-          <FrameBackImage src={frameBackImg} />
-          <RaceImage src={getCardRaceIcon(cardType)} />
-          <RaceSmallImage src={getCardRaceSmallIcon(cardType)} />
-          <FrameInnerImage src={frameInnerImg} />
-          {elite && <FrameEliteImage src={frameEliteImg} />}
-          <FrameBottomImage src={frameBottomImg} />
+          {/* <FrameBackImage src={frameBackImg} /> */}
+          {/* <RaceImage src={getCardRaceIcon(cardType)} /> */}
+          {/* <RaceSmallImage src={getCardRaceSmallIcon(cardType)} /> */}
+          {/* <FrameInnerImage src={frameInnerImg} /> */}
+          {/* {elite && <FrameEliteImage src={frameEliteImg} />} */}
+          {/* <FrameBottomImage src={frameBottomImg} /> */}
           <RarityImage src={getCardRarityIcon(cardRarity)} />
           <AttackIconWrapper>
-            <AttackIcon src={AttackMeleeIcon} />
+            {/* <AttackIcon src={AttackMeleeIcon} /> */}
             <StatText>{HP}</StatText>
           </AttackIconWrapper>
           <HpIconWrapper>
-            <HPIcon src={HpIcon} />
+            {/* <HPIcon src={HpIcon} /> */}
             <StatText>{ATK}</StatText>
           </HpIconWrapper>
           <StarWrapper>

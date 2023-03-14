@@ -102,9 +102,9 @@ export const HPIcon = styled(BaseImage)`
 
 export const StarWrapper = styled(Flex)`
   position: absolute;
-  top: 61.5%;
+  top: 59%;
   justify-content: center;
-  width: 100%;
+  width: 96%;
   z-index: 6;
 `
 
@@ -120,7 +120,7 @@ export const StarOffImage = styled.img`
 
 export const NameText = styled(BaseText)`
   position: absolute;
-  top: 69%;
+  top: 66.5%;
   color: white;
   font-size: 22px;
   font-weight: 800;
@@ -130,7 +130,7 @@ export const NameText = styled(BaseText)`
 
 export const RaceSmallText = styled(BaseText)`
   z-index: 2;
-  bottom: 2.5%;
+  bottom: 4.5%;
   position: absolute;
   color: white;
   font-size: 14px;
@@ -141,7 +141,7 @@ export const RaceSmallText = styled(BaseText)`
 
 export const RarityImage = styled(BaseImage)`
   z-index: 3;
-  width: 90px;
+  width: 100px;
 `
 
 export const HeroWrapper = styled(Flex)`
@@ -159,14 +159,14 @@ export const DescriptionText = styled(BaseText)`
   position: absolute;
   text-align: center;
   top: 79%;
-  margin: 0 30px;
+  margin: 0 40px;
   z-index: 6;
 `
 
 export const AttackIconWrapper = styled(Box)`
-  left: -23px;
+  left: -8px;
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   width: 25%;
   z-index: 6;
   display: flex;
@@ -175,9 +175,9 @@ export const AttackIconWrapper = styled(Box)`
 `
 
 export const HpIconWrapper = styled(Box)`
-  right: -23px;
+  right: -8px;
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   width: 25%;
   z-index: 6;
   display: flex;
@@ -187,7 +187,7 @@ export const HpIconWrapper = styled(Box)`
 
 export const StatText = styled(BaseText)`
   font-weight: 800;
-  font-size: 34px;
+  font-size: 35px;
   position: absolute;
   text-shadow: 1px 1px #000, -1px 1px #000, 1px -1px #000, -1px -1px #000, 1px 1px 0px #000;
   color: white;

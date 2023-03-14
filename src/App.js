@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { MainApp } from 'mollectorgame-sdk'
+import { MainApp } from './mollector-sdk'
 import { useSelector } from 'react-redux'
 import { Route, Switch } from 'react-router-dom'
 

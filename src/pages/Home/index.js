@@ -1,4 +1,4 @@
-import { Text } from 'mollectorgame-sdk'
+import { Text } from '../../mollector-sdk'
 
 import Layout from '~/components/Layout'
 import useOpenApp from '~/hooks/useOpenApp'

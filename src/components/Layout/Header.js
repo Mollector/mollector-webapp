@@ -1,4 +1,4 @@
-import { Box } from 'mollectorgame-sdk'
+import { Box } from '../../mollector-sdk'
 import styled from 'styled-components'
 
 import LogoMenu from '~/assets/images/menu.png'

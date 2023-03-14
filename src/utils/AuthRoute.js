@@ -1,5 +1,5 @@
 import React from 'react'
-import { useProviderInfo } from 'mollectorgame-sdk'
+import { useProviderInfo } from '../mollector-sdk'
 import { Redirect, Route } from 'react-router-dom'
 
 function AuthRoute({ component: Component, ...rest }) {

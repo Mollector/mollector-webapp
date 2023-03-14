@@ -63,12 +63,14 @@ export interface IChainConfig {
     SYMBOL: string
     DECIMALS: number
     CURRENCY: string
+    RATE: number
   }[]
   WITHDRAW_TOKENS?: {
     ADDRESS: string
     CURRENCY: string
     DECIMALS: number
     SYMBOL: string
+    RATE: number
   }[]
 }
 

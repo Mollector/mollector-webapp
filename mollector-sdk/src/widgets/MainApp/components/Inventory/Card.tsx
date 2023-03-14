@@ -91,7 +91,7 @@ const Card = () => {
                     variant="quaternary"
                     onClick={() => setIsOpenDepositTokenModal(true)}
                   >
-                    Deposit MOL token into Game
+                    Deposit Token Into Game
                   </StyledButton>
                   <SelectButton scale={isMobile ? scales.SM : scales.MD} onClick={() => setIsSelectionMode(true)}>
                     Select

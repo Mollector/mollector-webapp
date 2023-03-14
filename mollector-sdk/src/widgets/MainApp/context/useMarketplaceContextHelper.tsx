@@ -16,6 +16,7 @@ export interface IToken {
   value: string
   decimal: number
   currency: string
+  rate: number
 }
 
 export interface IContractConfig {
@@ -105,6 +106,7 @@ const useMarketplaceContextHelper = (): IContractConfig => {
           value: t.ADDRESS,
           currency: t.CURRENCY,
           decimal: t.DECIMALS,
+          rate: t.RATE || 1,
         }
       })
     }
@@ -122,6 +124,7 @@ const useMarketplaceContextHelper = (): IContractConfig => {
           value: t.ADDRESS,
           currency: t.CURRENCY,
           decimal: t.DECIMALS,
+          rate: t.RATE || 1,
         }
       })
     }

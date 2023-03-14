@@ -93,7 +93,9 @@ const DepositTokenModal = ({ isOpen, onHandleClose }: IDepositTokenModal) => {
   const { depositTokens } = useMarketplaceContextHelper()
   const [depositAmount, setDepositAmount] = useState('')
   const [isOpenConfirmModal, setIsOpenConfirmModal] = useState(false)
-  const [selectedToken, setSelectedToken] = useState<string>('')
+  const [selectedToken, setSelectedToken] = useState<string>(
+    depositTokens && depositTokens.length > 0 ? depositTokens[0].label : '',
+  )
   const forceUpdate = useForceUpdate()
   const authToken = getFromLocalStorage<IAuthToken>(AUTH_TOKEN)
   const isLoggedIn = authToken && !!authToken.token
@@ -107,7 +109,12 @@ const DepositTokenModal = ({ isOpen, onHandleClose }: IDepositTokenModal) => {
     return !depositAmount || !accountName || Number(depositAmount) === 0
   }, [depositAmount, accountName])
 
-  const { value: depositTokenAddress, decimal } = useMemo<IToken | Record<any, any>>(() => {
+  const {
+    value: depositTokenAddress,
+    decimal,
+    currency,
+    rate,
+  } = useMemo<IToken | Record<any, any>>(() => {
     if (selectedToken) {
       return find(depositTokens, (o) => o.label === selectedToken) || {}
     }
@@ -222,6 +229,14 @@ const DepositTokenModal = ({ isOpen, onHandleClose }: IDepositTokenModal) => {
                   <PriceText>Account: </PriceText> <InputPrice value={accountName} disabled />
                 </Flex>
               </PriceInfoWrapper>
+              {selectedToken != currency && (
+                <div style={{ color: '#ab4646' }}>
+                  {selectedToken} will automatically convert to {currency} with rate:{' '}
+                  <b>
+                    1 {selectedToken} = {rate} {currency}
+                  </b>
+                </div>
+              )}
             </>
           )}
         </Wrapper>

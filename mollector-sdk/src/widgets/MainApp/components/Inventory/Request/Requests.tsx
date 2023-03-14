@@ -141,13 +141,13 @@ const Request = ({ filters }: IRequestPropsType) => {
               </>
             ) : (
               <>
-                <StyledButton
+                {/* <StyledButton
                   variant="quaternary"
                   scale={isMobile ? scales.SM : scales.MD}
                   onClick={() => setIsOpenWithdrawTokenModal(true)}
                 >
                   Withdraw token
-                </StyledButton>
+                </StyledButton> */}
                 {cardsPages.length !== 0 && get(cardsPages, '[0].data', []).length !== 0 && (
                   <>
                     <SelectButton

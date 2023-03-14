@@ -158,7 +158,7 @@ export const DescriptionText = styled(BaseText)`
   font-size: 12px;
   position: absolute;
   text-align: center;
-  top: 79%;
+  top: 78%;
   margin: 0 40px;
   z-index: 6;
 `

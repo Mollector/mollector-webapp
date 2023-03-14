@@ -2208,7 +2208,7 @@ const Kn = {
       DEPOSIT_TOKEN: [],
     },
   },
-  API_URL: 'https://api-cb.mollector.com/api',
+  API_URL: 'https://api-dev.mollector.com/api',
   PACK_INFO: [
     { type: 'Legendary', eliteDropRate: 'NONE', numberOfPurchasePerUser: 1e3, id: '6' },
     { type: 'Mollector', eliteDropRate: 'LOW', numberOfPurchasePerUser: 1e3, id: '7' },
@@ -6115,43 +6115,43 @@ const OQ = M(nB)`
   bQ = (A) => {
     switch (A) {
       case 1:
-        return 'https://api-cb.mollector.com/static/card/Rarity_Common.png'
+        return 'https://api-dev.mollector.com/static/card/Rarity_Common.png'
       case 2:
-        return 'https://api-cb.mollector.com/static/card/Rarity_Rare.png'
+        return 'https://api-dev.mollector.com/static/card/Rarity_Rare.png'
       default:
-        return 'https://api-cb.mollector.com/static/card/Rarity_Epic.png'
+        return 'https://api-dev.mollector.com/static/card/Rarity_Epic.png'
     }
   },
   jQ = (A) => {
     switch (A) {
       case 1:
-        return 'https://api-cb.mollector.com/static/card/Race_Beast.png'
+        return 'https://api-dev.mollector.com/static/card/Race_Beast.png'
       case 2:
-        return 'https://api-cb.mollector.com/static/card/Race_Dragon.png'
+        return 'https://api-dev.mollector.com/static/card/Race_Dragon.png'
       case 3:
-        return 'https://api-cb.mollector.com/static/card/Race_Demon.png'
+        return 'https://api-dev.mollector.com/static/card/Race_Demon.png'
       case 4:
-        return 'https://api-cb.mollector.com/static/card/Race_Elemental.png'
+        return 'https://api-dev.mollector.com/static/card/Race_Elemental.png'
       case 5:
-        return 'https://api-cb.mollector.com/static/card/Race_Mech.png'
+        return 'https://api-dev.mollector.com/static/card/Race_Mech.png'
       default:
-        return 'https://api-cb.mollector.com/static/card/Race_Neutral.png'
+        return 'https://api-dev.mollector.com/static/card/Race_Neutral.png'
     }
   },
   uQ = (A) => {
     switch (A) {
       case 1:
-        return 'https://api-cb.mollector.com/static/card/RaceSmall_Beast.png'
+        return 'https://api-dev.mollector.com/static/card/RaceSmall_Beast.png'
       case 2:
-        return 'https://api-cb.mollector.com/static/card/RaceSmall_Dragon.png'
+        return 'https://api-dev.mollector.com/static/card/RaceSmall_Dragon.png'
       case 3:
-        return 'https://api-cb.mollector.com/static/card/RaceSmall_Demon.png'
+        return 'https://api-dev.mollector.com/static/card/RaceSmall_Demon.png'
       case 4:
-        return 'https://api-cb.mollector.com/static/card/RaceSmall_Element.png'
+        return 'https://api-dev.mollector.com/static/card/RaceSmall_Element.png'
       case 5:
-        return 'https://api-cb.mollector.com/static/card/RaceSmall_Mech.png'
+        return 'https://api-dev.mollector.com/static/card/RaceSmall_Mech.png'
       default:
-        return 'https://api-cb.mollector.com/static/card/RaceSmall_Neutral.png'
+        return 'https://api-dev.mollector.com/static/card/RaceSmall_Neutral.png'
     }
   },
   JQ = M(HA)`
@@ -6340,362 +6340,362 @@ const OQ = M(nB)`
         switch (A) {
           case 1:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/1_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/1_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/1_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/1_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/1_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/1_r_effect.png',
             }
           case 2:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/2_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/2_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/2_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/2_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/2_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/2_r_effect.png',
             }
           case 3:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/3_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/3_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/3_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/3_r_char.png',
               effect: '',
             }
           case 4:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/4_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/4_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/4_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/4_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/4_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/4_r_effect.png',
             }
           case 5:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/5_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/5_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/5_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/5_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/5_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/5_r_effect.png',
             }
           case 6:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/6_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/6_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/6_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/6_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/6_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/6_r_effect.png',
             }
           case 7:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/7_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/7_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/7_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/7_r_char.png',
               effect: '',
             }
           case 8:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/8_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/8_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/8_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/8_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/8_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/8_r_effect.png',
             }
           case 9:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/9_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/9_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/9_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/9_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/9_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/9_r_effect.png',
             }
           case 10:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/10_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/10_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/10_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/10_r_char.png',
               effect: '',
             }
           case 11:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/11_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/11_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/11_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/11_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/11_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/11_r_effect.png',
             }
           case 12:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/12_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/12_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/12_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/12_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/12_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/12_r_effect.png',
             }
           case 13:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/13_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/13_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/13_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/13_r_char.png',
               effect: '',
             }
           case 14:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/14_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/14_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/14_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/14_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/14_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/14_r_effect.png',
             }
           case 15:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/15_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/15_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/15_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/15_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/15_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/15_r_effect.png',
             }
           case 16:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/16_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/16_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/16_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/16_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/16_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/16_r_effect.png',
             }
           case 17:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/17_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/17_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/17_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/17_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/17_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/17_r_effect.png',
             }
           case 18:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/18_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/18_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/18_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/18_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/18_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/18_r_effect.png',
             }
           case 19:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/19_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/19_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/19_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/19_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/19_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/19_r_effect.png',
             }
           case 20:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/20_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/20_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/20_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/20_r_char.png',
               effect: '',
             }
           case 21:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/21_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/21_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/21_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/21_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/21_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/21_r_effect.png',
             }
           case 22:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/22_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/22_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/22_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/22_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/22_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/22_r_effect.png',
             }
           case 23:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/23_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/23_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/23_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/23_r_char.png',
               effect: '',
             }
           case 24:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/24_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/24_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/24_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/24_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/24_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/24_r_effect.png',
             }
           case 25:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/25_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/25_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/25_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/25_r_char.png',
               effect: '',
             }
           case 26:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/26_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/26_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/26_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/26_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/26_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/26_r_effect.png',
             }
           case 27:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/27_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/27_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/27_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/27_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/27_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/27_r_effect.png',
             }
           case 28:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/28_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/28_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/28_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/28_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/28_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/28_r_effect.png',
             }
           case 29:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/29_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/29_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/29_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/29_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/29_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/29_r_effect.png',
             }
           case 30:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/30_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/30_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/30_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/30_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/30_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/30_r_effect.png',
             }
           case 31:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/31_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/31_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/31_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/31_r_char.png',
               effect: '',
             }
           case 32:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/32_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/32_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/32_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/32_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/32_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/32_r_effect.png',
             }
           case 33:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/33_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/33_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/33_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/33_r_char.png',
               effect: '',
             }
           case 34:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/34_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/34_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/34_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/34_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/34_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/34_r_effect.png',
             }
           case 35:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/35_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/35_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/35_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/35_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/35_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/35_r_effect.png',
             }
           case 36:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/36_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/36_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/36_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/36_r_char.png',
               effect: '',
             }
           case 37:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/37_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/37_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/37_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/37_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/37_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/37_r_effect.png',
             }
           case 38:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/38_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/38_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/38_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/38_r_char.png',
               effect: '',
             }
           case 39:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/39_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/39_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/39_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/39_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/39_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/39_r_effect.png',
             }
           case 40:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/40_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/40_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/40_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/40_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/40_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/40_r_effect.png',
             }
           case 41:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/41_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/41_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/41_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/41_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/41_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/41_r_effect.png',
             }
           case 42:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/42_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/42_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/42_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/42_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/42_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/42_r_effect.png',
             }
           case 43:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/43_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/43_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/43_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/43_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/43_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/43_r_effect.png',
             }
           case 44:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/44_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/44_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/44_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/44_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/44_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/44_r_effect.png',
             }
           case 45:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/45_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/45_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/45_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/45_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/45_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/45_r_effect.png',
             }
           case 46:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/46_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/46_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/46_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/46_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/46_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/46_r_effect.png',
             }
           case 47:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/47_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/47_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/47_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/47_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/47_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/47_r_effect.png',
             }
           case 48:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/48_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/48_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/48_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/48_r_char.png',
               effect: '',
             }
           case 49:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/49_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/49_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/49_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/49_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/49_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/49_r_effect.png',
             }
           case 50:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/50_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/50_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/50_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/50_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/50_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/50_r_effect.png',
             }
           case 51:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/51_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/51_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/51_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/51_r_char.png',
               effect: '',
             }
           case 52:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/52_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/52_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/52_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/52_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/52_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/52_r_effect.png',
             }
           case 53:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/53_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/53_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/53_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/53_r_char.png',
               effect: '',
             }
           case 54:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/54_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/54_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/54_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/54_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/54_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/54_r_effect.png',
             }
           case 55:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/55_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/55_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/55_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/55_r_char.png',
               effect: '',
             }
           case 56:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/56_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/56_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/56_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/56_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/56_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/56_r_effect.png',
             }
           case 57:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/57_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/57_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/57_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/57_r_char.png',
               effect: '',
             }
           case 58:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/58_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/58_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/58_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/58_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/58_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/58_r_effect.png',
             }
           case 59:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/59_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/59_r_char.png',
-              effect: 'https://api-cb.mollector.com/static/hero/59_r_effect.png',
+              background: 'https://api-dev.mollector.com/static/hero/59_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/59_r_char.png',
+              effect: 'https://api-dev.mollector.com/static/hero/59_r_effect.png',
             }
           case 60:
             return {
-              background: 'https://api-cb.mollector.com/static/hero/60_r_bg.png',
-              char: 'https://api-cb.mollector.com/static/hero/60_r_char.png',
+              background: 'https://api-dev.mollector.com/static/hero/60_r_bg.png',
+              char: 'https://api-dev.mollector.com/static/hero/60_r_char.png',
               effect: '',
             }
           default:
@@ -6729,23 +6729,23 @@ const OQ = M(nB)`
             U && A.createElement(VQ, { src: U }),
             A.createElement(WQ, { src: o }),
           ),
-          A.createElement(qQ, { src: 'https://api-cb.mollector.com/static/card/Frame_Back.png' }),
+          A.createElement(qQ, { src: 'https://api-dev.mollector.com/static/card/Frame_Back.png' }),
           A.createElement(_Q, { src: jQ(D) }),
           A.createElement($Q, { src: uQ(D) }),
-          A.createElement(ZQ, { src: 'https://api-cb.mollector.com/static/card/Frame_Inner.png' }),
-          v && A.createElement(Ac, { src: 'https://api-cb.mollector.com/static/card/Frame_Elite.png' }),
-          A.createElement(XQ, { src: 'https://api-cb.mollector.com/static/card/Frame_Bottom.png' }),
+          A.createElement(ZQ, { src: 'https://api-dev.mollector.com/static/card/Frame_Inner.png' }),
+          v && A.createElement(Ac, { src: 'https://api-dev.mollector.com/static/card/Frame_Elite.png' }),
+          A.createElement(XQ, { src: 'https://api-dev.mollector.com/static/card/Frame_Bottom.png' }),
           A.createElement(Ic, { src: bQ(e) }),
           A.createElement(
             ec,
             null,
-            A.createElement(Bc, { src: 'https://api-cb.mollector.com/static/card/stat_Attack_Melee.png' }),
+            A.createElement(Bc, { src: 'https://api-dev.mollector.com/static/card/stat_Attack_Melee.png' }),
             A.createElement(fc, null, s),
           ),
           A.createElement(
             Dc,
             null,
-            A.createElement(nc, { src: 'https://api-cb.mollector.com/static/card/stat_HP.png' }),
+            A.createElement(nc, { src: 'https://api-dev.mollector.com/static/card/stat_HP.png' }),
             A.createElement(fc, null, t),
           ),
           A.createElement(
@@ -6753,10 +6753,10 @@ const OQ = M(nB)`
             null,
             new Array(P)
               .fill(0)
-              .map(() => A.createElement(wc, { src: 'https://api-cb.mollector.com/static/card/Star_On.png' })),
+              .map(() => A.createElement(wc, { src: 'https://api-dev.mollector.com/static/card/Star_On.png' })),
             new Array(5 - P)
               .fill(0)
-              .map(() => A.createElement(wc, { src: 'https://api-cb.mollector.com/static/card/Star_Off.png' })),
+              .map(() => A.createElement(wc, { src: 'https://api-dev.mollector.com/static/card/Star_Off.png' })),
           ),
           A.createElement(Qc, null, f),
           A.createElement(

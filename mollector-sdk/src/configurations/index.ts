@@ -24,7 +24,7 @@ export interface IConfig {
 }
 
 const configs: IConfig = {
-  API_URL: 'https://api-cb.mollector.com/api',
+  API_URL: 'https://api-dev.mollector.com/api',
   PACK_INFO: [
     {
       type: 'Legendary',

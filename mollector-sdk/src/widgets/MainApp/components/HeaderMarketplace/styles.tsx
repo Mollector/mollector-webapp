@@ -34,7 +34,6 @@ export const Container = styled(Box)`
 
 export const Logo = styled.img`
   width: 250px;
-  height: 120px;
   &:hover {
     cursor: pointer;
   }
@@ -215,7 +214,7 @@ export const MenuItem = styled(Text)<{
   }
 
   &:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 30px;
   }
 
   &::before {

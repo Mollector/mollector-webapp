@@ -7,7 +7,7 @@ import { Text } from '~/components/Text'
 export const LoginWrapper = styled.form`
   display: flex;
   border-radius: 8px;
-  width: 50%;
+  width: 90%;
   justify-content: center;
   align-items: center;
   flex-direction: column;

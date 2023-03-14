@@ -49,7 +49,7 @@ const Signin = ({ onLoginSuccess }: ISignin) => {
   return (
     <Flex justifyContent="center">
       <LoginWrapper onSubmit={onSignIn}>
-        <SignUpText>Sign in</SignUpText>
+        <SignUpText>Sign in Game Account</SignUpText>
         <HLineStyled />
         <InputWrapper mb="20px">
           <TitleText>Email</TitleText>

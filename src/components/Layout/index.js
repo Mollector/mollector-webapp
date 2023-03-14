@@ -1,4 +1,4 @@
-import { Box } from '../../mollector-sdk/'
+import { Box } from '../../mollector-sdk'
 import styled from 'styled-components'
 
 import backgroundImage from '~/assets/images/mainbackground.png'

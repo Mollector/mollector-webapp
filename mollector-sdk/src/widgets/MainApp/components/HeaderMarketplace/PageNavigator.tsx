@@ -34,7 +34,7 @@ const PageNavigator = ({ injectedConnectorConfig, walletConnectorConfig }: Login
   return (
     <MenuItemWrapper isLoggedIn={!!account}>
       <Menu>
-        <Flex ml="10px">
+        <Flex ml="30px">
           {routes.map(({ name, path }) => {
             return (
               <MenuItem isActive={currentRoutes === path} onClick={() => onNavigateToRoute(path)}>
